@@ -1,0 +1,113 @@
+.menu{
+    width: 100%;
+    height: 4rem;
+    position: relative;
+}
+
+.elementos-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1rem 0 1rem;
+}
+
+.logo h1{
+    font-size: 26px;
+    color: #139B8D;
+    font-weight: 900;
+}
+
+.links ul{
+    display: flex;
+    align-items: center;
+}
+
+.links li{
+    margin: 0 0 0 1rem;
+}
+
+li{
+    list-style-type: none;
+}
+
+.links a{
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+.links a:hover{
+    color: #139B8D;
+    border-bottom: 2px solid #139B8D;
+    padding-bottom: 4px;
+}
+
+.alinha{
+    width: 46%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.pesquisa {
+    width: 20rem;
+}
+
+.pesquisa{
+    display: none;
+    align-items: center;
+    border-radius: 3px;
+    border: 1px solid white;
+    margin-right: 1rem;
+    background-color: transparent;
+    backdrop-filter: blur(6px);
+}
+
+.pesquisa input{
+    width: 18rem;
+    padding: 9px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+input:focus {
+    border: none;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: none;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+}
+
+
+.pesquisaAberta{
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    margin-left: 7px;
+}
+
+.pesquisaFechada{
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    margin-left: 7px;
+    margin-right: 1rem;
+}
+
+.parte-left{
+    display: flex;
+    align-items: center;
+}
+
+.perfio img{
+    width: 34px;
+    height: 34px;
+    border-radius: 5px;
+    cursor: pointer;
+}

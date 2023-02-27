@@ -1,0 +1,72 @@
+@media (max-width: 425px){
+    .alinha-detalhes {
+        display: flex;
+        margin: 1rem 0rem 0rem 0rem;
+        position: relative;
+        align-items: center;
+    }
+    .titulo-filme{
+        display: flex;
+        justify-content: center;
+    }
+    .titulo-filme h1 {
+        font-size: 26px;
+        max-width: 19rem;
+        color: white;
+        text-align: center;
+    }
+    .sinopse p {
+        color: #c1c1c1;
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+        padding: 1rem;
+    }
+    .buttons {
+        display: flex;
+        margin-top: 1rem;
+        justify-content: center;
+    }
+    .outros {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 0rem;
+        max-width: 100%;
+        text-align: center;
+    }
+    .datalhes {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .elementos-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+    }
+    .pesquisa {
+        display: none;
+        align-items: center;
+        border-radius: 3px;
+        border: 1px solid white;
+        margin-right: 1rem;
+        background-color: transparent;
+        -webkit-backdrop-filter: blur(6px);
+        backdrop-filter: blur(6px);
+        margin-left: -23rem;
+        margin-top: 3rem;
+        width: 17rem;
+    }
+
+    .card1 img {
+        width: 10rem;
+        height: 13rem;
+        border-radius: 0.5rem;
+        max-width: 100%;
+        transition: all 0.3s;
+    }
+    
+}
