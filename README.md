@@ -1,6 +1,7 @@
-# Meu-Portfolio
+# Streaming_Film
 
-Olá, Meu nome é Eduardo e esse é o projeto do meu web site - Portfolio. aonde nele estão informações minhas, mostrando todo meu conhecimento e habilidades.
+
+Olá, Meu nome é Eduardo e esse é o projeto de um web site streaming film. No qual é consumido a API de filmes em React JS.
 <br>
 <br>
  <div align="center">
