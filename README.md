@@ -1,4 +1,4 @@
-# Streaming_Film
+# Streaming_Movie
 
 
 Olá, Meu nome é Eduardo e esse é o projeto de um web site streaming film. No qual é consumido a API de filmes em React JS.
